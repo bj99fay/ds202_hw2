@@ -1,5 +1,5 @@
 ---
-title: "Hoework 2"
+title: "Homework 2"
 author: "Bernard Fay; GitHub: bj99fay"
 date: "2/5/2020"
 output: html_document
@@ -9,13 +9,6 @@ output: html_document
 library(ggplot2)
 library(plyr)
 ```
-
-This homework is about syntax and basic plotting functions in R, and is **due by the end of Feb 7**. 
-
-You can use the RMarkDown file with these homework instructions as a template for your work. 
-Make sure to replace "Your Name" and "your_github_username" in the YAML with your name and Github username.
-
-**Submission instructions**: Create a folder named `ds202_hw2`, and name the RMarkDown file including your solutions `hw2.Rmd` under this folder. For submission, create a GitHub repository named `ds202_hw2` under your account, and push both `hw2.Rmd` and the knitted `hw2.html` to GitHub before the deadline. I will assume you use the same GitHub username as for your HW1 submission. The latest version of your homework appearing on GitHub before the deadline is graded. *It is crucial to follow the exact folder structure and file names*, so that your homework can be reproduced and graded by an automated script. Some questions will require the following answer format.
 
 ## R commands
 1. Today's temperature has a high of 24 and a low of 15 degree fahrenheit.  Find the corresponding degress in celsius and storage it in a (single) vector named `cel`. Print the variable.
@@ -100,7 +93,5 @@ summary(cars99)
 summary(cars08)
 ```
 
-Cars in 2008 did not tend to be more fuel efficient by both city and highway mpg measurements. Cars in 2008 did have a larger range of values than those in 1999. However, there is no significant difference in mpg in either metric between 1999 and 2008.
+Cars in 2008 did not tend to be more fuel efficient by both city and highway mpg measurements. Cars in 2008 did have a larger range of values than those in 1999. However, there is no significant difference in mpg in either metric between 1999 and 2008. Therefore, we can not determine if cars in 2008 are more fuel efficient than cars in 1999.
 
-
-Note: your submission is supposed to be fully reproducible, i.e. the TA and I will 'knit' your submission. Make sure that you don't use any file structure that depends on your computing environment.
